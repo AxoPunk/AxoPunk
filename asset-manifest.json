@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AxoPunk/static/css/main.e3ddcd49.css",
+    "main.js": "/AxoPunk/static/js/main.808c3012.js",
+    "static/js/453.4fb97502.chunk.js": "/AxoPunk/static/js/453.4fb97502.chunk.js",
+    "index.html": "/AxoPunk/index.html",
+    "main.e3ddcd49.css.map": "/AxoPunk/static/css/main.e3ddcd49.css.map",
+    "main.808c3012.js.map": "/AxoPunk/static/js/main.808c3012.js.map",
+    "453.4fb97502.chunk.js.map": "/AxoPunk/static/js/453.4fb97502.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3ddcd49.css",
+    "static/js/main.808c3012.js"
+  ]
+}
