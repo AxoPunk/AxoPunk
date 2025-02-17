@@ -1,6 +1,41 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import logo from './img/AxoPunk_TintaBlanca.png';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+const eventImages = require.context('./img/events', false, /\.(png|jpe?g|svg)$/).keys().map((path) => require(`./img/events/${path.replace('./', '')}`));
+
+const responsive = {
+  superLargeDesktop: {
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1
+  }
+};
+
+const EventCarousel = () => {
+  return (
+    <Carousel responsive={responsive}>
+      {eventImages.map((image, index) => (
+        <div key={index} className="carousel-item">
+          <img src={image} alt={`Event ${index}`} className="carousel-image" />
+        </div>
+      ))}
+    </Carousel>
+  );
+};
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -42,17 +77,16 @@ function App() {
         )}
       </header>
       <div className="App-content">
-        <header className="App-header">
-          <p>Scroll down to see the effect</p>
-        </header>
         <div className="section section-1" id="inicio">
-          <h1>Section 1</h1>
+          <p><h1>Enseñar, Aprender y Difundir...</h1>
+          <h2>AxoPunk</h2></p>
         </div>
         <div className="section section-2" id="eventos">
-          <h1>Section 2</h1>
+          <h1>Eventos</h1>
+          <EventCarousel />
         </div>
         <div className="section section-3" id="contacto">
-          <h1>Section 3</h1>
+          <h1>Contacto</h1>
         </div>
       </div>
       <footer className="footer">
