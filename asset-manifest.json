@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/AxoPunk/static/css/main.e3ddcd49.css",
-    "main.js": "/AxoPunk/static/js/main.808c3012.js",
+    "main.css": "/AxoPunk/static/css/main.65d5b2ef.css",
+    "main.js": "/AxoPunk/static/js/main.9dfefd17.js",
     "static/js/453.4fb97502.chunk.js": "/AxoPunk/static/js/453.4fb97502.chunk.js",
+    "static/media/Git_GitHub_ExplicadoConGalletas.png": "/AxoPunk/static/media/Git_GitHub_ExplicadoConGalletas.086cca3207146c817884.png",
+    "static/media/3.png": "/AxoPunk/static/media/3.350897111e927c9eaaba.png",
+    "static/media/Mar_Indigo.png": "/AxoPunk/static/media/Mar_Indigo.1dc2d48b737c68a28973.png",
+    "static/media/ZCM.png": "/AxoPunk/static/media/ZCM.4be0dba3758b6d6c2351.png",
+    "static/media/HackaPunk.png": "/AxoPunk/static/media/HackaPunk.3ea80f04fb00bf4e9a5b.png",
+    "static/media/AxoRallyIG.png": "/AxoPunk/static/media/AxoRallyIG.1847f55ebbbb75212784.png",
+    "static/media/Mantenimiento.png": "/AxoPunk/static/media/Mantenimiento.93d727fddfa922291572.png",
+    "static/media/2.png": "/AxoPunk/static/media/2.6dc10921de2bf032ccd9.png",
+    "static/media/1.png": "/AxoPunk/static/media/1.b3b63c3d5a45c57ca517.png",
+    "static/media/revicons.eot": "/AxoPunk/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/AxoPunk/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/AxoPunk/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/AxoPunk/index.html",
-    "main.e3ddcd49.css.map": "/AxoPunk/static/css/main.e3ddcd49.css.map",
-    "main.808c3012.js.map": "/AxoPunk/static/js/main.808c3012.js.map",
+    "main.65d5b2ef.css.map": "/AxoPunk/static/css/main.65d5b2ef.css.map",
+    "main.9dfefd17.js.map": "/AxoPunk/static/js/main.9dfefd17.js.map",
     "453.4fb97502.chunk.js.map": "/AxoPunk/static/js/453.4fb97502.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3ddcd49.css",
-    "static/js/main.808c3012.js"
+    "static/css/main.65d5b2ef.css",
+    "static/js/main.9dfefd17.js"
   ]
 }
